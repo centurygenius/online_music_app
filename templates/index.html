@@ -1,0 +1,282 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Streaming Music Player</title>
+        <link rel="stylesheet" href="{% static 'css/header.css' %}">
+		<link rel="stylesheet" href="{% static 'css/styles.css' %}">
+        <link rel="stylesheet" href="{% static 'css/footer.css' %}">
+	</head>
+	<body>
+		<header>
+			<div class="logo-heading">
+				<img src="{% static 'images/logo_icon.png' %}" width="30" 
+				      height="30" style="margin-left: -840px;" alt="logo"/>
+				OMS
+			</div>
+			<nav>
+				<ul>
+					<li><a href="/index.html">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#contact">Contact</a></li>
+					<li><a href="login"> Login </a></li>
+					<li><a href="signup">Signup</a></li>
+				</ul>
+		</header>
+      <div class="container"> 
+		  <div class="content">   
+				<div id="cat_tab">
+				   <h1>Online Web Music Streaming Application</h1>
+				   <p><em>........your gateway to unparallel entertainment</em></p>
+				   <div class="cover-page">
+					<img src="{% static 'images/microphone.avif' %}" alt="Coverpage" />
+				   </div>
+				   <ul>
+					  <li><a href="/login.html">Highlife</a></li>
+					  <li><a href="/login.html">Classical</a></li>
+					  <li><a href="/login.html">Afrobeat</a></li>
+					  <li><a href="/login.html">RnB</a></li>
+					  <li><a href="/login.html">HipHop</a></li>
+					  <li><a href="/login.html">Playlists</a></li>
+				   </ul><br>
+				</div>
+				<div class='tab_option'>
+					<div class="afrocolum-1">
+						<div class="afrobeat-1">
+							<img src="{% static 'images/turntable2.jpg' %}" alt="afro"/>
+						</div>
+						<div class="afrobeat-2">
+							<h3>Afrobeat:</h3>
+							<p><em>Afrobeat is an African creative music style
+								meant to <br>provide unequal entertainment in an African way.
+							</em></p>
+						</div>
+						<ol>
+							<li>
+								<section id="tab_option">
+									<div class="afrobeat-1">
+										<img src="{% static 'images/Wizkid.webp' %}" alt="afro"/>
+									</div>
+									<div>
+										<ul>
+											<li>Song name: Surulere</li>
+											<li>Artist:Wizkid</li>
+										</ul>
+									</div>
+								</section>
+							</li>
+							<li>
+								<section id="tab_option">
+									<div class="afrobeat-1">
+										<img src="{% static 'images/davido.jpg' %}" alt="afro"/>
+									</div>
+									<div>
+										<ul>
+											<li>Song name: Assurance</li>
+											<li>Artist: Davido</li>
+										</ul>
+									</div>
+								</section>
+							</li>
+							<li>
+								<section id="tab_option">
+									<div class="afrobeat-1">
+										<img src="{% static 'images/fela.webp' %}" alt="afro"/>
+									</div>
+									<div>
+										<ul>
+											<li>Song name: Zombie</li>
+											<li>Artist: Fela Anikulapo Kuti</li>
+										</ul>
+									</div>
+								</section>
+							</li>
+						</ol>
+				    </div>
+					<div class="afrocolum-2">
+						<img src="{% static 'images/turntable3.jpg' %}" alt="afro"/>
+					</div>
+					<div class="afrocolum-3">
+						<img src="{% static 'images/turntable4.webp' %}" alt="afro"/>
+					</div>
+				</div>
+				<hr>
+				<div>
+					<div class="new-release-column-1">
+						<div>
+							<div class="afrobeat-1">
+								<img src="{% static 'images/new-release.jpg' %}" alt="afro"/>
+							</div>
+							<div class="afrobeat-2">
+								<h3>New Release:</h3>
+								<p><em>These are songs that are newly released to entertain <br>
+									the public.
+								</em></p>
+							</div>
+						</div>
+						<div class='new_release'>
+							<ol>
+								<li>
+									<section>
+										<div>
+											<p>Money - by Asake</p>
+										</div>
+									</section>
+								</li>
+								<li>
+									<section>
+										<div>
+											<p>Unbended Knee - by Boyz II Men</p>
+										</div>
+									</section>
+								</li>
+								<li>
+									<section>
+										<div>
+											<p>Yellow Fever - by Fela Anikulapo Kuti</p>
+										</div>
+									</section>
+								</li>
+							</ol>
+						</div>
+				    </div>
+					<div class="new-release-column-2">
+						<img src="{% static 'images/dance.webp' %}" alt="afro"/>
+					</div>
+					<div class="new-release-column-3">
+						<img src="{% static 'images/music.jpg' %}" alt="afro"/>
+					</div>
+			    </div>
+				<hr>
+				<div>
+					<div class="western-column-1">
+						<div>
+							<div class="afrobeat-1">
+								<img src="{% static 'images/western.jpg' %}" alt="afro"/>
+							</div>
+							<div class="afrobeat-2">
+								<h3>Western:</h3>
+								<p><em>Western old and current music style is available for <br>
+									your entertainment.</em>
+								</p>
+							</div>
+						</div>
+						<div class='album'>
+							<section>
+								<div>
+									<ol>
+										<li>One Love</li>
+										<li>Bob Marley</li>
+									</ol>
+								</div>
+							</section>
+							<section>
+								<div>
+									<ol>
+										<li>Dear Mama</li>
+										<li>2 Pac</li>
+									</ol>
+								</div>
+							</section>
+							<section>
+								<div>
+									<ol>
+										<li>Origin</li>
+										<li>Celine Dion</li>
+									</ol>
+								</div>
+							</section>
+						</div>
+					</div>
+					<div class="western-column-2">
+						<img src="{% static 'images/music2.jpg' %}" alt="afro"/>
+					</div>
+					<div class="western-column-3">
+						<img src="{% static 'images/party.jpg' %}" alt="afro"/>
+					</div>
+			    </div>
+				<hr>
+				<div class="video">
+					<h3>Video:</h3>
+					<p>Play the video below to know more about our project.</p>
+					<video src="{% static 'video/video-landing-page.mp4' %}" width="320" height="240" type="video/mp4" poster="static/video/video-landing-page.mp4" controls>
+						Your browser does not support the video tag.
+					</video>
+				</div>
+				<hr>
+				<div>
+					<div class="about-team">
+						<h3 id="about">About:</h3>
+						<p>The inspiration behind this project is derived from market trends, user experience, 
+							and content monetization. The success of subscription-based services like Spotify 
+							and Apple Music shows market viability. Offering tailored playlists and recommendations 
+							based on user preferences with the provision of easy access to a vast library of music 
+							anytime, anywhere will enable users to discover new artists, genres, and tracks.
+							Free streaming with ads can attract a large user base while exclusive releases and 
+							partnerships with artists can attract subscribers. 
+							(This is a Portfolio Project for Holberton School.)
+						</p>
+						
+				    </div>
+					<hr>
+					<h3 style="text-align: center;"><strong>Team members and social media links:</strong></h3>
+					<p style="text-align: center;">This section introduces team members who worked assiduosly and 
+						tirelessly to  ensure the success of this project.
+					</p>
+					<div class="team-ayoola">
+						<p><em>Mr Ayoola Nuatin</em></p>
+						<ul>
+							<li><a href="https://www.linkedin.com/in/ayoola-nuatin">Linkedln</a></li>
+							<li><a href="https://github.com/nuatin">GitHub</a></li>
+							<li><a href="https://x.com/AreYourOrLah">X (formerly Twitter)</a></li>
+						</ul>
+				    </div>
+					<div class="team-abdullahi">
+						<p><em>Mr Abdullahi Abdulrofiu</em></p>
+						<ul>
+							<li><a href=" https://www.linkedin.com/in/abdullahi-abdulrofiu?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Linkedln</a></li>
+							<li><a href="https://github.com/credmighty">GitHub</a></li>
+							<li><a href=" https://x.com/toyllahi?t=KGzKY04fkW_sGGiNF1S2YA&s=09">X (formerly Twitter)</a></li>
+						</ul>
+				    </div>
+					<div class="team-abiona">
+						<p><em>Mr Abiona Samuel</em></p>
+						<ul>
+							<li><a href="https://www.linkedin.com/in/samuelabiona">Linkedln</a></li>
+							<li><a href="https://github.com/centurygenius">GitHub</a></li>
+							<li><a href="https://x.com/AbionaOSamuel?t=7-KvNb5mQRB8kzVyKaMetg&s=08">X (formerly Twitter)</a></li>
+						</ul>
+				    </div>
+					<hr>
+					<div class="repo">
+						<h3>Repository:</h3>
+						<p><em>A link to the <a href="https://github.com/nuatin/music_app/tree/master">GitHub repository</a> 
+							for this project is herewith included for your reference.</em>
+						</p>
+					    <p><strong>Thank you for visiting our website.</strong></p>
+					</div>
+				</div>
+		</div>
+			<footer id="contact">
+				<section class="social-media">
+				<ul>
+					<li><a href="#" class="social-media"><img src="{% static 'images/facebook.png' %}"/></a></li>
+					<li><a href="#" class="social-media"><img src="{% static 'images/twitter.png' %}"/></a></li>
+					<li><a href="#" class="social-media"><img src="{% static 'images/instagram.png' %}"/></a></li>
+					<!-- Add more social media icons -->
+				</ul>
+				</section>
+				<section class="copyright">
+					<p>Copyright © <span id="copyright-year"></span> - Online Web Music Streaming App - All rights reserved.</p>
+				</section>
+			</footer>
+		</div>
+		<!-- Script for Footer with dynamic copyright year -->
+		<script>
+			document.getElementById("copyright-year").textContent = new Date().getFullYear();
+		</script>
+	</body>
+    
+</html>

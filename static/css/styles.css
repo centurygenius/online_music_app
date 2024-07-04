@@ -1,0 +1,203 @@
+/*Properties for coverpage image*/
+.cover-page {
+    text-align: center;
+    height: 400px;
+}
+
+.cover-page img{
+    display: inline-block;
+    width: 1170px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*Layout for id 'cat_tab'*/
+#cat_tab li {
+    list-style-type: none;
+    width: 5em;
+    text-align: center;
+    float: left;
+}
+
+#cat_tab a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    background-color: green;
+    margin-bottom: 2px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+#cat_tab ul {
+    margin-left: 310px;
+}
+
+#cat_tab a:hover {
+    background-color: rgb(32, 216, 87);
+    border: none;
+}
+
+/*Property for the headline*/
+#cat_tab h1 {
+    margin-left: 300px;
+}
+
+/*Properties for the headline phrase*/
+#cat_tab p {
+    margin-left: 550px;
+    margin-top: -19px;
+    margin-bottom: 25px;
+}
+
+.afrobeat-2 {
+    margin-top: -20px;
+}
+
+.afrobeat-2 p {
+    margin-top: -13px;
+}
+
+.afrobeat-1 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.afrobeat-1 img {
+    width: 40px;
+    height: 30px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+/* Layout and properties for the content*/
+
+.content {
+    background-color: #d1d8e0;
+    margin-top: 10px;
+    border-radius: 15px;
+    padding-top: 1px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.tab_option {
+    margin-top: 15px;
+}
+
+.afrocolum-1 {
+    width: 400px;
+}
+
+.afrocolum-2 {
+    width: 385px;
+    height: 383px;
+    margin-left: 400px;
+    margin-top: -400px;
+}
+
+.afrocolum-2 img {
+    width: 385px;
+    height: 383px;
+}
+
+.afrocolum-3 {
+    width: 385px;
+    height: 383px;
+    margin-left: 785px;
+    margin-top: -383px;
+}
+
+.afrocolum-3 img {
+    width: 385px;
+    height: 383px;
+}
+
+.new-release-column-1 {
+    width: 400px;
+}
+
+.new-release-column-2 {
+    width: 385px;
+    height: 209px;
+    margin-left: 400px;
+    margin-top: -225px;
+}
+
+.new-release-column-2 img {
+    width: 385px;
+    height: 209px;
+}
+
+.new-release-column-3 {
+    width: 385px;
+    height: 209px;
+    margin-left: 785px;
+    margin-top: -209px;
+}
+
+.new-release-column-3 img {
+    width: 385px;
+    height: 209px;
+}
+
+.western-column-1 {
+    width: 400px;
+}
+
+.western-column-2 {
+    width: 385px;
+    height: 265px;
+    margin-left: 400px;
+    margin-top: -281px;
+}
+
+.western-column-2 img {
+    width: 385px;
+    height: 265px;
+}
+
+.western-column-3 {
+    width: 385px;
+    height: 265px;
+    margin-left: 785px;
+    margin-top: -265px;
+}
+
+.western-column-3 img {
+    width: 385px;
+    height: 265px;
+}
+
+.video {
+    text-align: center;
+}
+
+.video video {
+    border-style: solid;
+    border-color: green;
+}
+
+.about-team {
+    text-align: center;
+}
+
+.team-ayoola {
+    width: 400px;
+}
+
+.team-abdullahi {
+    width: 400px;
+    margin-left: 400px;
+    margin-top: -106px;
+}
+
+.team-abiona {
+    width: 400px;
+    margin-left: 800px;
+    margin-top: -107px;
+}
+
+.repo {
+    text-align: center;
+}

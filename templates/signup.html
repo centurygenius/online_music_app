@@ -1,0 +1,65 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign Up</title>
+        <link rel="stylesheet" href="{% static 'css/signup.css' %}">
+        <link rel="stylesheet" href="{% static 'css/footer.css' %}">
+        
+    </head>
+    <body>
+        <div class="general"><br>
+            <div class="one">
+                <img src="{% static 'images/login_pic.jpg' %}">
+                <h2>CREATE ACCOUNT</h2>
+                    <div>
+                        <style>
+                            h5{
+                                color: red;
+                            }
+                        </style>
+                        {% for message in messages %}
+                        <h5>{{ message }}</h5>
+                        {% endfor %}
+                    </div>
+                <form action="" method="POST">
+                    {% csrf_token %}
+                    <input type="email" name="email" class="inputOne" placeholder="Email" required>
+                    <input type="text" name="username" class="inputOne" placeholder="Username" required>
+                    <input type="password" name="password" class="inputOne" placeholder="Password" required>
+                    <input type="password" name="confirm_password" class="inputOne" placeholder="Confirm Password" required>
+                    <div class="three">
+                    <p><span><input type="checkbox" class="inputCheck" required></span>I agree to the terms.</p>
+                    </div>
+                    <button type="submit" class="btnOne">SIGN UP</button><br>
+                    <span>Already have an account? <a href="/login">Login</a></span>
+                    <hr>
+                    <div>
+                    <p class="two">OR</p>
+                    </div>
+                    <p>Sign Up with <a href="facebook.com/login">Facebook</a></p>
+                    <p>Sign Up with <a href="https://accounts.google.com">Google Account</a></p>
+                    
+                </form>
+            </div>
+        </div>
+    </body>
+    <footer id="contact">
+        <section class="social-media">
+        <ul>
+            <li><a href="#" class="social-media"><img src="{% static 'images/facebook.png' %}"/></a></li>
+            <li><a href="#" class="social-media"><img src="{% static 'images/twitter.png' %}"/></a></li>
+            <li><a href="#" class="social-media"><img src="{% static 'images/instagram.png' %}"/></a></li>
+            <!-- Add more social media icons -->
+        </ul>
+        </section>
+        <section class="copyright">
+            <p>Copyright © <span id="copyright-year"></span> - Online Web Music Streaming App - All rights reserved.</p>
+        </section>
+    </footer>
+    <!-- Script for Footer with dynamic copyright year -->
+		<script>
+			document.getElementById("copyright-year").textContent = new Date().getFullYear();
+		</script>
+</html>

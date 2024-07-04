@@ -1,0 +1,57 @@
+/*=====Layout and properties for 'playlists.html'=====*/
+.playlist-column-1 {
+    background-color: #d1d8e0;
+    width: 200px;
+    height: 192px;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;  
+    float: left;  
+    margin-right: 10px;
+}
+
+.card-1 img {
+    width: 200px;
+    height: 100px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.card-1-list a {
+    background-color: green;
+    text-decoration: none;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 80px;
+    margin-top: -20px;
+    cursor: pointer;
+}
+
+.card-1-list ul {
+    list-style-type: none;
+    margin-left: -19px;
+}
+
+.playlist-column-2 {
+    background-color: #d1d8e0;
+    width: 200px;
+    height: 192px;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;  
+    float: left;  
+    margin-right: 10px;
+}
+
+.playlist-column-3 {
+    background-color: #d1d8e0;
+    width: 200px;
+    height: 192px;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;  
+    float: left;  
+    margin-right: 10px;
+}

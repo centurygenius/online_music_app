@@ -1,0 +1,182 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Streaming Music Player</title>
+        <link rel="stylesheet" href="{% static 'css/header.css' %}">
+        <link rel="stylesheet" href="{% static 'css/footer.css' %}">
+		<link rel="stylesheet" href="{% static 'css/playlists.css' %}">
+        <script src="{% static 'index.js' %}"></script>
+	</head>
+	<body>
+        <div class="container">
+			<div class="cards-container"> 
+				<h1 style="text-align: center;">
+					My playlists
+				</h1>
+				<hr>
+				<div class="playlists"></div>
+					<div class="playlist-column-1">
+						<div class="card-1">
+							<img src="{% static 'images/Wizkid.webp' %}" alt="afro"/>
+						</div>
+						<div class="card-1-list">
+							<ul>
+								<li>Song name: Surulere</li>
+								<li>Artist:Wizkid</li>
+							</ul>
+							<a href="#">Play</a>
+						</div>
+					</div>
+				</div>
+				<div class="playlists">
+					<div class="playlist-column-2">
+						<div class="card-1">
+							<img src="{% static 'images/davido.jpg' %}" alt="afro"/>
+						</div>
+						<div class="card-1-list">
+							<ul>
+								<li>Song name: Surulere</li>
+								<li>Artist:Wizkid</li>
+							</ul>
+							<a href="#">Play</a>
+						</div>
+					</div>
+				</div>
+				<div class="playlists">
+					<div class="playlist-column-3">
+						<div class="card-1">
+							<img src="{% static 'images/fela.webp' %}" alt="afro"/>
+						</div>
+						<div class="card-1-list">
+							<ul>
+								<li>Song name: Surulere</li>
+								<li>Artist:Wizkid</li>
+							</ul>
+							<a href="#">Play</a>
+						</div>
+					</div>
+				</div>
+				<div class="playlists">
+					<div class="playlist-column-2">
+						<div class="card-1">
+							<img src="{% static 'images/Wizkid.webp' %}" alt="afro"/>
+						</div>
+						<div class="card-1-list">
+							<ul>
+								<li>Song name: Surulere</li>
+								<li>Artist:Wizkid</li>
+							</ul>
+							<a href="#">Play</a>
+						</div>
+					</div>
+				</div>
+				<div class="playlists">
+					<div class="playlist-column-2">
+						<div class="card-1">
+							<img src="{% static 'images/davido.jpg' %}" alt="afro"/>
+						</div>
+						<div class="card-1-list">
+							<ul>
+								<li>Song name: Surulere</li>
+								<li>Artist:Wizkid</li>
+							</ul>
+							<a href="#">Play</a>
+						</div>
+					</div>
+				</div>
+				<div class="playlists">
+					<div class="playlist-column-2">
+						<div class="card-1">
+							<img src="{% static 'images/fela.webp' %}" alt="afro"/>
+						</div>
+						<div class="card-1-list">
+							<ul>
+								<li>Song name: Surulere</li>
+								<li>Artist:Wizkid</li>
+							</ul>
+							<a href="#">Play</a>
+						</div>
+					</div>
+				</div>
+				<div class="playlists">
+					<div class="playlist-column-2">
+						<div class="card-1">
+							<img src="{% static 'images/Wizkid.webp' %}" alt="afro"/>
+						</div>
+						<div class="card-1-list">
+							<ul>
+								<li>Song name: Surulere</li>
+								<li>Artist:Wizkid</li>
+							</ul>
+							<a href="#">Play</a>
+						</div>
+					</div>
+				</div>
+				<div class="playlists">
+					<div class="playlist-column-2">
+						<div class="card-1">
+							<img src="{% static 'images/davido.jpg' %}" alt="afro"/>
+						</div>
+						<div class="card-1-list">
+							<ul>
+								<li>Song name: Surulere</li>
+								<li>Artist:Wizkid</li>
+							</ul>
+							<a href="#">Play</a>
+						</div>
+					</div>
+				</div>
+				<div class="playlists">
+					<div class="playlist-column-2">
+						<div class="card-1">
+							<img src="{% static 'images/fela.webp' %}" alt="afro"/>
+						</div>
+						<div class="card-1-list">
+							<ul>
+								<li>Song name: Surulere</li>
+								<li>Artist:Wizkid</li>
+							</ul>
+							<a href="#">Play</a>
+						</div>
+					</div>
+				</div>
+				<div class="playlists">
+					<div class="playlist-column-2">
+						<div class="card-1">
+							<img src="{% static 'images/Wizkid.webp' %}" alt="afro"/>
+						</div>
+						<div class="card-1-list">
+							<ul>
+								<li>Song name: Surulere</li>
+								<li>Artist:Wizkid</li>
+							</ul>
+							<a href="#">Play</a>
+						</div>
+					</div>
+				</div>
+		    </div>
+			<hr width="100%">
+		</div>
+		<footer id="contact">
+			<section class="social-media">
+			<ul>
+				<li><a href="#" class="social-media"><img src="{% static 'images/facebook.png' %}"/></a></li>
+				<li><a href="#" class="social-media"><img src="{% static 'images/twitter.png' %}"/></a></li>
+				<li><a href="#" class="social-media"><img src="{% static 'images/instagram.png' %}"/></a></li>
+				<!-- Add more social media icons -->
+			</ul>
+			</section>
+			<section class="copyright">
+				<p>Copyright © <span id="copyright-year"></span> - Online Web Music Streaming App - All rights reserved.</p>
+			</section>
+		</footer>
+		<!-- Script for Footer with dynamic copyright year -->
+		<script>
+			document.getElementById("copyright-year").textContent = new Date().getFullYear();
+		</script>
+	</body>
+    
+</html>

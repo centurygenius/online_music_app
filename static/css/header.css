@@ -1,0 +1,49 @@
+/*Layout for header*/
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #f1f2f6;
+    color: black;
+    padding: 10px 0;
+    text-align: center;
+    height: 40px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+/*Layout for the header heading*/
+.logo-heading {
+    width: 200px;
+}
+
+/*Layout for nav bar*/
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-top: -6px;
+    margin-left: 10px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;    
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    background-color: green;
+    box-shadow: 5px 5px 5px blue;
+    border-radius: 5px;
+    margin-bottom: 2px;
+}
+/*Layout for nav bar hover*/
+
+nav a:hover {
+    text-decoration: cursor;
+    background-color: rgb(32, 216, 87)
+}

@@ -1,0 +1,38 @@
+  /*Layout and properties for Footer social media icons*/
+footer {
+    background-color: #f1f2f6;
+    color: black;
+    padding: 1em;
+    text-align: center;
+    border-radius: 15px;
+    margin-top: 0px;
+  }
+  
+  .copyright {
+    font-size: 0.8em;
+  }
+  
+  .social-media {
+    margin-top: 1em;
+
+  }
+  
+  .social-media ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-media li {
+    margin-right: 1em;
+  }
+
+  .social-media img {
+    width: 20px;
+  }
+    
+  .social-media img:hover {
+    width: 22px;
+  }
